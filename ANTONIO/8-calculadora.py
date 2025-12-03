@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 while True:
     print('=====CALCULADORA BÁSICA=====')
     n1=int(input('Digite um número: '))

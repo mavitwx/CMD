@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 val=float(input('Digite o valor de um produto: '))
 while True:
     val*=0.81

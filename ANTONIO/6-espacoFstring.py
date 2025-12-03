@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 nome = 'Mavi'
 print(f'Olá, {nome:-^50}!')
 

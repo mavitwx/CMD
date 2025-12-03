@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 nume=int(input('Digite o numerador da fração: '))
 den=int(input('Digite o denominador da fração: '))
 resu= nume/den

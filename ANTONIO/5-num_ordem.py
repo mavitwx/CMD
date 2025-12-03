@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 prim = float(input('Digite um número: '))
 seg = float(input('Digite outro número: '))
 

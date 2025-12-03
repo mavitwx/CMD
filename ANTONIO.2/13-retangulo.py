@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 h=float(input('Digite a altura do retângulo: '))
 ba=float(input('Digite a base do retângulo: '))
 area=h*ba

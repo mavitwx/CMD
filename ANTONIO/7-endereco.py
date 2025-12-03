@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 nome=input('Digite seu nome: ')
 end=input('Digite seu endereço: ')
 tel=input('Digite seu telefone: ')

@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 nome = 'Maria Vitória'
 idade = 18
 eh_maior_de_idade = idade >= 18

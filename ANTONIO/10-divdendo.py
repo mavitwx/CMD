@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 num=float(input('Digite o dividendo: '))
 num2=float(input('Digite o divisor: '))
 quoc=num/num2

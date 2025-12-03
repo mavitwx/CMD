@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 cat1=float(input('Digite o valor do cateto 1: '))
 cat2=float(input('Digite o valor do cateto 2: '))
 hip=(cat1**1+cat2**2)**0.5

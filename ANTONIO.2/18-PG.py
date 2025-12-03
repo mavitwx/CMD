@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 while True:
     a1 =  int(input('Primeiro termo: '))
     r= int(input('Razão: '))

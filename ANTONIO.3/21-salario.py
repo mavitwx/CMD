@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 while True:
     salmi=float(input('Digite o valor do salário mínimo: '))
     sal1=float(input('Digite o valor do salário da pessoa: '))

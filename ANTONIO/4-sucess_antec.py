@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 num=float(input('Digite um número: '))
 suc= num+1
 ant= num-1

@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 sal=float(input('Digite o saldo da aplicação: '))
 while True:
     sal*=1.01

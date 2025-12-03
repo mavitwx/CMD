@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 while True:
     hor=float(input('Digite o valor da hora atual: '))
     min=ho*60

@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 import math
 raio=float(input('Digite o raio do círculo: '))
 math.pi=3.14
