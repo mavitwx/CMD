@@ -6,6 +6,10 @@ while True:
     n3=float(input('Digite sua terceira nota: '))
     media=(n1+n2+n3)/3
     print(f'Sua média é: {media:.2f}')
+    if media>=7:
+        print('Você está aprovado(a)!')
+    elif media<7:
+        print('Você está reprovado(a)!')
     print('===================================')
     res=input('Aplicar mais uma vez? (s/n): ').lower()
     if res!='s':

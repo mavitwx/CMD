@@ -1,11 +1,14 @@
 import os
 os.system('cls')
+
 while True:
-    n1=float(input('Digite sua primeira nota: '))
-    n2=float(input('Digite sua segunda nota: '))
-    n3=float(input('Digite sua terceira nota: '))
-    media=(n1+n2+n3)/3
-    print(f'Sua média é: {media:.2f}')
+    n=float(input('Digite um número: '))
+    if n>0:
+        print(f'O número {n:+} é positivo!')
+    elif n<0:
+        print(f'O número {n:+} é negativo!')
+    else:
+        print(f'O número {n} é nulo!')
     print('===================================')
     res=input('Aplicar mais uma vez? (s/n): ').lower()
     if res!='s':
