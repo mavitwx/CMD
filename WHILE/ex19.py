@@ -16,10 +16,10 @@ while True:
         print('                            ')
         break
     elif id<21:
-        menor=+1
+        menor+=1
     elif id>50:
         maior+=1
-    contador=+1
-print(f'A quantidade de pessoas menores de idade são: {menor}')
-print(f'A quantidade de pessoas com mais de 50 anos são: {maior}')
+    contador+=1
+print(f'A quantidade de pessoas menores de 21 anos são: {menor}')
+print(f'A quantidade de pessoas maiores de 50 anos são: {maior}')
 print('                            ')
