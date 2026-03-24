@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 nums1 = []
 nums2 = []
 somas = []
