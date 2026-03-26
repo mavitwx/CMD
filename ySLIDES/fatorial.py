@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 while True:
     import math
     n=int(input('Digite um número (0) p/sair: '))
