@@ -8,7 +8,7 @@ print(A)
 
 palindromo=True
 
-for i in range(len(A//2)):
+for i in range(len(A)//2):
     if A[i]!=A[len(A)-1-i]:
         palindromo=False
         break
